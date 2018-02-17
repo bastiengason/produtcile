@@ -1,4 +1,13 @@
 #contact {
   background-color: $brand-blue;
   height: 40vh;
+  padding: 80px;
+}
+
+.contact-tagline {
+  color: white;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  font-size: 35px;
 }
