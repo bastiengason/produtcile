@@ -20,7 +20,8 @@
 .item-a {
   grid-area: item-a;
   background-color: $brand-blue;
-  background: image-url('bg-yellow-1.jpg') no-repeat center;
+  // background: image-url('bg-yellow-1.jpg') no-repeat center;
+  background: image-url('duotone-a.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
@@ -33,7 +34,8 @@
 .item-b {
   grid-area: item-b;
   background-color: $brand-blue;
-  background: image-url('bg-red-1.jpg') no-repeat center;
+  // background: image-url('bg-red-1.jpg') no-repeat center;
+  background: image-url('duotone-b.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
@@ -46,7 +48,8 @@
 .item-c {
   grid-area: item-c;
   background-color: $brand-blue;
-  background: image-url('bg-purple-1.jpg') no-repeat center;
+  // background: image-url('bg-purple-1.jpg') no-repeat center;
+  background: image-url('duotone-c.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
@@ -59,7 +62,8 @@
 .item-d {
   grid-area: item-d;
   background-color: $brand-blue;
-  background: image-url('bg-blue-1.jpg') no-repeat center;
+  // background: image-url('bg-blue-1.jpg') no-repeat center;
+  background: image-url('duotone-d.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
@@ -73,7 +77,8 @@
 .item-e {
   grid-area: item-e;
   background-color: $brand-blue;
-  background: image-url('bg-pink-2.jpg') no-repeat center;
+  // background: image-url('bg-pink-2.jpg') no-repeat center;
+  background: image-url('duotone-e.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
@@ -86,7 +91,8 @@
 .item-f {
   grid-area: item-f;
   background-color: $brand-blue;
-  background: image-url('bg-grey-1.jpg') no-repeat center;
+  // background: image-url('bg-grey-1.jpg') no-repeat center;
+  background: image-url('duotone-f.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
