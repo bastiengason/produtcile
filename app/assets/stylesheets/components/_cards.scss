@@ -4,3 +4,145 @@
   border-radius: 9px;
   background-color: white;
 }
+
+.grid-one {
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px;
+  grid-template-rows: 240px 100px 240px;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  grid-template-areas:
+    "item-a item-b item-d item-d"
+    "item-a item-b item-e item-f"
+    "item-c item-c item-e item-f";
+}
+
+.item-a {
+  grid-area: item-a;
+  background-color: $brand-blue;
+  background: image-url('bg-yellow-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: RGBA(253, 205, 47, 1.00);
+    box-shadow: 0 0 15px 4px RGBA(253, 205, 47, 1);
+  }
+}
+
+.item-b {
+  grid-area: item-b;
+  background-color: $brand-blue;
+  background: image-url('bg-red-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: red;
+    box-shadow: 0 0 15px 4px RGBA(253, 205, 47, 1);
+  }
+}
+
+.item-c {
+  grid-area: item-c;
+  background-color: $brand-blue;
+  background: image-url('bg-purple-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: purple;
+    box-shadow: 0 0 15px 4px RGBA(253, 205, 47, 1);
+  }
+}
+
+.item-d {
+  grid-area: item-d;
+  background-color: $brand-blue;
+  background: image-url('bg-blue-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: blue;
+    box-shadow: 0 0 15px 4px RGBA(253, 205, 47, 1);
+  }
+
+}
+
+.item-e {
+  grid-area: item-e;
+  background-color: $brand-blue;
+  background: image-url('bg-pink-2.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: pink;
+    box-shadow: 0 0 15px 4px RGBA(253, 205, 47, 1);
+  }
+}
+
+.item-f {
+  grid-area: item-f;
+  background-color: $brand-blue;
+  background: image-url('bg-grey-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: grey;
+    box-shadow: 0 0 15px 4px RGBA(253, 205, 47, 1);
+  }
+}
+
+
+.pictures-card {
+  display: inline-block;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 25px 5px rgba(31, 51, 73 , .2);
+  position: relative;
+  padding: 40px 20px;
+
+  h3 {
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    left: 20px;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+  }
+
+  h4 {
+    position: absolute;
+    text-transform: uppercase;
+    margin: 0;
+    top: 30px;
+    left: 20px;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+    color: rgba(255, 255, 255, .9);
+  }
+
+  .start-now {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
