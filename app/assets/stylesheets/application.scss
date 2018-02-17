@@ -1,0 +1,29 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// Config
+@import "config/utilities";
+@import "config/variables";
+
+// Components
+@import "components/buttons";
+@import "components/navbar";
+@import "components/footer";
+
+// Sections
+@import "sections/banner";
+@import "sections/purpose";
+@import "sections/pricing";
+@import "sections/contact";
+
+// Pages
+@import "pages/faq";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  border: $gray solid 1px;
+  opacity: 0.1;
+}
