@@ -4,3 +4,122 @@
   border-radius: 9px;
   background-color: white;
 }
+
+.pictures-card {
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 25px 5px rgba(31, 51, 73 , .2);
+  position: relative;
+  padding: 40px 20px;
+
+  h3 {
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    left: 20px;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+  }
+
+  h4 {
+    position: absolute;
+    text-transform: uppercase;
+    margin: 0;
+    top: 30px;
+    left: 20px;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+    color: rgba(255, 255, 255, .9);
+  }
+
+  .start-now {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 15px 4px RGBA(253, 205, 47, 1);
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.pictures-card-vertical {
+  height: 380px;
+  width: 240px;
+}
+
+.pictures-card-horizontal {
+  height: 300px;
+  width: 600px;
+}
+
+.pictures-card-red {
+  background: image-url('bg-red-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: red;
+  }
+}
+
+.pictures-card-blue {
+  background: image-url('bg-blue-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: blue;
+  }
+}
+
+.pictures-card-yellow {
+  background: image-url('bg-yellow-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: RGBA(253, 205, 47, 1.00);
+  }
+}
+
+.pictures-card-purple {
+  background: image-url('bg-purple-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: purple;
+  }
+}
+
+.pictures-card-grey {
+  background: image-url('bg-grey-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: grey;
+  }
+}
+
+.pictures-card-orange {
+  background: image-url('bg-orange-1.jpg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+  .start-now {
+    color: orange;
+  }
+}
