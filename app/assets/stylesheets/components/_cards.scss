@@ -1,6 +1,8 @@
+// Pricing Card
+
 .pricing-card {
   box-shadow: 0 0 30px 6px rgba(31, 51, 73 , .1);
-  height: 500px;
+  height: 530px;
   max-width: 300px;
   border-radius: 9px;
   background-color: white;
@@ -20,10 +22,11 @@
     color: white;
     font-size: 18px;
     letter-spacing: 0.2rem;
-    font-family: "Josefin sans";
+    font-family: 'Josefin sans';
   }
 
   .pricing-card-content {
+    padding-top: 15px;
   }
 
   .pricing-card-footer {
@@ -34,8 +37,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
   }
 }
+
+.price {
+  text-align: center;
+  color: $gray-price;
+  font-size: 65px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+
+  .dollar-sign {
+    // font-family: 'Roboto', sans-serif;
+    // font-size: 50px;
+    // font-weight: 500;
+    color: $brand-blue;
+  }
+}
+
+
+
+// Grid card
 
 .grid-one {
   display: grid;
