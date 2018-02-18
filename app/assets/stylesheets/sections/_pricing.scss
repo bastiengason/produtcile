@@ -1,5 +1,37 @@
 #pricing {
   background-color: white;
-  height: 100vh;
+  min-height: 90vh;
   padding: 150px 0;
+}
+
+.feature-list {
+  ul {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.05rem;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 0;
+    padding-top: 20px;
+
+    li {
+      padding-top: 20px;
+    }
+  }
+}
+
+.circle-checked {
+  color: $brand-blue;
+  float: left;
+  margin-top: 2px;
+  margin-left: 17%;
+  margin-right: 20px;
+}
+
+.circle-unchecked {
+  color: $gray-circle;
+  float: left;
+  margin-top: 2px;
+  margin-left: 17%;
+  margin-right: 20px;
 }
