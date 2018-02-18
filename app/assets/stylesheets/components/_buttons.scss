@@ -34,3 +34,21 @@
     color: $brand-blue;
   }
 }
+
+.pricing-btn {
+  background-color: white;
+  border-radius: 50px;
+  color: $brand-blue !important;
+  padding: 10px 25px;
+  border: 2px solid $brand-blue;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+
+  &:hover {
+    background-color: $brand-blue;
+    color: white !important;
+    transition: ease .2s;
+    text-decoration: none;
+  }
+}
