@@ -1,4 +1,25 @@
 #banner {
   background-color: white;
   height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 150px;
+  padding: 250px 150px;
+  background: image-url('bg-banner.svg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+.banner-tagline {
+  color: $brand-blue;
+  font-size: 45px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.banner-desc {
+  color: $brand-blue;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
 }
