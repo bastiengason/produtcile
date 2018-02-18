@@ -43,33 +43,6 @@
   }
 }
 
-.second-nav {
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0px 3px 15px RGBA(0, 0, 0, 0.1);
-  top: 0;
-  background-color: white;
-  width: 100%;
-  z-index: 10;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 8%;
-  padding-right: 8%;
-
-  a {
-    color: $brand-blue-opacity;
-
-    &:focus,
-    &:hover {
-      color: $brand-blue;
-      font-weight: 500;
-      text-decoration: none;
-    }
-  }
-}
 
 .counter {
   background: black;
@@ -105,20 +78,6 @@
   margin-bottom: auto;
 }
 
-.iggrow-logo-blue {
-  color: blue;
-}
-
-.iggrow-logo {
-  color: white;
-  font-size: 35px;
-  font-weight: 600;
-
-  &:hover {
-    font-weight: 600 !important;
-  }
-}
-
 
 .logo {
   color: $brand-blue;
@@ -133,6 +92,9 @@
   height: 30px;
 }
 
+.productile-logo-small {
+  height: 20px;
+}
 
 
 

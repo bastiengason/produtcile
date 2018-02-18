@@ -1,4 +1,25 @@
 #purpose {
-  height: 60vh;
+  min-height: 60vh;
   background-color: $gray;
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+.feature-icon {
+
+}
+
+.feature-title {
+  color: $brand-blue;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Open Sans";
+  margin-top: 0;
+  // text-decoration: underline;
+}
+
+.feature-desc {
+  color: $gray-price;
+  font-family: "Avenir", sans-serif;
+  padding-top: 10px;
 }

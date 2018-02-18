@@ -2,6 +2,9 @@
   background-color: $brand-blue;
   height: 40vh;
   padding: 80px;
+  background: image-url('productile-pattern.svg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
 }
 
 .contact-tagline {
