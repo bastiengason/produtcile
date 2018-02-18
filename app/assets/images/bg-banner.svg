@@ -1,0 +1,57 @@
+<svg id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 991.233">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #4468f7;
+      }
+
+      .cls-2 {
+        opacity: 0.528;
+      }
+
+      .cls-3 {
+        opacity: 0.35;
+      }
+
+      .cls-4 {
+        opacity: 0.199;
+      }
+
+      .cls-5 {
+        opacity: 0.159;
+      }
+
+      .cls-6 {
+        opacity: 0.131;
+      }
+
+      .cls-7 {
+        opacity: 0.29;
+      }
+
+      .cls-8 {
+        opacity: 0.254;
+      }
+
+      .cls-9 {
+        opacity: 0.102;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_1" data-name="Groupe 1">
+    <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-1" width="1920" height="991"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-2" width="235.121" height="235.121" transform="translate(1684.879 638.113)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-3" width="235.121" height="74.121" transform="translate(1684.879 917.113)"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-4" width="235.121" height="74.121" transform="translate(1126.879 917.113)"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-5" width="235.121" height="235.121" transform="translate(1405.673 755.673)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-6" width="235.121" height="235.121" transform="translate(1126.467 638.113)"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-7" width="235.121" height="235.121" transform="translate(1405.673 476.467)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-8" width="235.121" height="235.121" transform="translate(1684.879 358.906)"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-9" width="235.121" height="235.121" transform="translate(846.879 755.906)"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-9" width="235.121" height="74.121" transform="translate(567.879 916.906)"/>
+  </g>
+</svg>
