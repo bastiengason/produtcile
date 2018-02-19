@@ -21,6 +21,12 @@
 
 // Pages
 @import "pages/faq";
+@import "pages/blog";
+
+// Plans
+@import "plans/starter";
+@import "plans/professional";
+@import "plans/unlimited";
 
 body {
   font-family: "Open Sans", sans-serif;
