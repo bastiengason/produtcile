@@ -2,6 +2,10 @@
   background-color: $gray;
   min-height: 60vh;
   padding: 100px 0;
+
+  @media screen and (max-width: 787px) {
+    padding-bottom: 50px;
+  }
 }
 
 .how-title {
@@ -25,6 +29,11 @@
   font-weight: 600;
   margin-top: 25px;
   letter-spacing: 0.09rem;
+
+  @media screen and (max-width: 787px) {
+    margin-top: 0;
+    margin-bottom: 70px;
+  }
 }
 
 .illu-small {

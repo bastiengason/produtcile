@@ -10,6 +10,10 @@
   margin-left: auto;
   margin-right: auto;
 
+  @media screen and (max-width: 787px) {
+    margin-bottom: 100px;
+  }
+
 
   .pricing-card-header {
     background-color: $brand-blue;
