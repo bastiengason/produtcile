@@ -12,9 +12,10 @@
 }
 
 .banner-tagline {
-  color: $brand-blue;
+  color: $brand-blue !important;
   font-size: 45px;
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
 }
 
 .banner-desc {
@@ -24,3 +25,24 @@
   padding-top: 30px;
   line-height: 1.8;
 }
+
+
+mark {
+  color: $brand-blue !important;
+  background: transparent;
+  position: relative;
+  padding: 0;
+  z-index: 0;
+}
+
+mark:before {
+  background-color: #72ffc0 !important;
+  content: " ";
+  position: absolute;
+  z-index: -2;
+  bottom: 0px;
+  height: 20px;
+  left: 6px;
+  right: -6px;
+}
+
