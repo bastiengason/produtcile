@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   # Pages routes
   get '/blog', to: 'pages#blog'
   get '/faq', to: 'pages#faq'
+  get '/terms', to: 'pages#terms'
+  get '/jobs', to: 'pages#jobs'
 
   # Plans routes
   get '/plan/starter', to: 'plans#starter'
