@@ -21,11 +21,16 @@
 @import "sections/contact";
 
 // Pages
-@import "pages/pages";
-@import "pages/faq";
+@import "pages/about";
 @import "pages/blog";
+@import "pages/contact";
+@import "pages/faq";
+@import "pages/jobs";
+@import "pages/pages";
+@import "pages/terms";
 
 // Plans
+@import "plans/plan";
 @import "plans/starter";
 @import "plans/professional";
 @import "plans/unlimited";
