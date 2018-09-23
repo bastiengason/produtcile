@@ -4,11 +4,14 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 150px;
   padding: 250px 150px;
   background: image-url('bg-banner.svg') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
+
+  @media screen and (max-width: 991px) {
+    padding: 150px 9%;
+  }
 }
 
 .banner-tagline {
@@ -16,14 +19,25 @@
   font-size: 45px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
+  line-height: 1.2;
+
+  @media screen and (max-width: 991px) {
+    font-size: 30px;
+    padding-top: 15px;
+  }
 }
 
 .banner-desc {
-  color: $brand-blue;
+  color: $gray-price;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  padding-top: 30px;
-  line-height: 1.8;
+  font-size: 18px;
+  padding-top: 20px;
+  line-height: 1.7;
+
+  @media screen and (max-width: 991px) {
+    font-size: 15px;
+    padding-top: 15px;
+  }
 }
 
 
