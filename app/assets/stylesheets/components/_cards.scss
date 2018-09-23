@@ -1,4 +1,4 @@
-// Pricing Card
+/////////////////////////////////////////////////////////////////// Pricing Card
 
 .pricing-card {
   box-shadow: 0 0 30px 6px rgba(31, 51, 73 , .1);
@@ -63,7 +63,7 @@
 
 
 
-// Grid card
+////////////////////////////////////////////////////////////////////// Grid card
 
 .grid-one {
   display: grid;
@@ -212,13 +212,14 @@
   }
 }
 
+//////////////////////////////////////////////////////////////////////// QA CARD
 
 .qa-card {
-  background-color: $brand-blue;
+  background-color: $gray;
   border-radius: 3px;
   padding: 10px 20px;
   margin-bottom: 30px;
-  color: white;
+  color: $gray-price;
   font-size: 21px;
 }
 

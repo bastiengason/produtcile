@@ -4,43 +4,62 @@
     <%= image_tag("productile-logo.png", class: "productile-logo") %>
   </a>
   <div class="nav-container">
+    <!-- Discover -->
     <div class="nav-element">
       <a href="/#purpose">
         Discover
       </a>
     </div> <!-- End .nav-element -->
+
+    <!-- What we do -->
     <div class="nav-element">
       <a href="/#what">
         What
       </a>
     </div> <!-- End .nav-element -->
+
+    <!-- How it works -->
     <div class="nav-element">
       <a href="/#how">
         How
       </a>
     </div> <!-- End .nav-element -->
+
+    <!-- Pricing -->
     <div class="nav-element">
       <a href="/#pricing">
         Pricing
       </a>
     </div> <!-- End .nav-element -->
-<!--     <div class="nav-element">
-      <a href="#contact">
-        Contact
-      </a>
-    </div> --> <!-- End .nav-element -->
+
+    <!-- Get Started -->
     <div class="nav-element">
       <a class="primary-btn" href="/plan">Get Started</a>
     </div> <!-- End .nav-element -->
   </div>
 </div>
 
-<div class="navbar-recovr-mobile hidden-md hidden-lg">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12">
+<!-- Mobile Navbar -->
+<div class="navbar-mobile hidden-md hidden-lg">
+  <!-- Logo Productile -->
+  <%= image_tag("productile-logo.png", class: "logo-mobile") %>
 
-      </div>
-    </div>
+  <div class="dropdown">
+    <!-- Dropdown Icon -->
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- List -->
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a href="/#discover">Discover</a></li>
+      <li><a href="/#features">Features</a></li>
+      <li><a href="/#how">How</a></li>
+      <li><a href="/#pricing">Pricing</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="/plan">Get Started</a></li>
+    </ul>
   </div>
 </div>
+

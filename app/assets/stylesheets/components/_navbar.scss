@@ -97,7 +97,51 @@
 }
 
 
+////////////////////////////////////////////////////////////////// Mobile Navbar
 
+.navbar-mobile {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+.logo-mobile {
+  position: absolute;
+  top: 35%;
+  left: 9%;
+  height: 25px;
+}
+
+.dropdown {
+  margin-left: 83%;
+}
+
+.open > .dropdown-menu {
+  margin-left: -115px;
+}
+
+.btn-default {
+  border: none !important;
+  box-shadow: none;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 9px 25px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+  font-size: 17px;
+  font-family: "Avenir";
+
+}
 
 
 
