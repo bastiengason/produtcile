@@ -2,7 +2,7 @@
 
 .pricing-card {
   box-shadow: 0 0 30px 6px rgba(31, 51, 73 , .1);
-  height: 530px;
+  height: 560px;
   max-width: 300px;
   border-radius: 9px;
   background-color: white;
@@ -20,6 +20,7 @@
     height: 70px;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;

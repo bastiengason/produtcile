@@ -8,4 +8,26 @@
   background-color: $gray;
   padding-top: 160px;
   text-align: center;
+
+  @media screen and (max-width: 515px) {
+    padding-top: 130px;
+  }
+}
+
+.under-construction {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 32px;
+    color: $brand-blue;
+  }
+
+  h3 {
+    font-size: 22px;
+    color: $gray-price;
+  }
 }
