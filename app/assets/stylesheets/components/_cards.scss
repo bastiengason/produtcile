@@ -76,7 +76,58 @@
     "item-a item-b item-d item-d"
     "item-a item-b item-e item-f"
     "item-c item-c item-e item-f";
+
+  @media screen and (max-width: 1111px) {
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 220px 100px 220px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-areas:
+      "item-a item-b item-d item-d"
+      "item-a item-b item-e item-f"
+      "item-c item-c item-e item-f";
+  }
+
+  @media screen and (max-width: 1001px) {
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 100px 200px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    grid-template-areas:
+      "item-a item-b item-d item-d"
+      "item-a item-b item-e item-f"
+      "item-c item-c item-e item-f";
+  }
+
+  @media screen and (max-width: 1001px) {
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px 200px 200px 100px 100px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    grid-template-areas:
+      "item-a item-b"
+      "item-a item-b"
+      "item-c item-c"
+      "item-d item-d"
+      "item-e item-f"
+      "item-e item-f";
+  }
+
+  @media screen and (max-width: 411px) {
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    grid-template-areas:
+      "item-a"
+      "item-b"
+      "item-c"
+      "item-d"
+      "item-e"
+      "item-f";
+  }
 }
+
 
 .item-a {
   grid-area: item-a;
@@ -179,6 +230,10 @@
     left: 20px;
     font-weight: 600;
     letter-spacing: 0.07rem;
+
+    @media screen and (max-width: 1111px) {
+      font-size: 22px;
+    }
   }
 
   h4 {
