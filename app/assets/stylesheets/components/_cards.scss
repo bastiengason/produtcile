@@ -2,7 +2,7 @@
 
 .pricing-card {
   box-shadow: 0 0 30px 6px rgba(31, 51, 73 , .1);
-  height: 560px;
+  height: 580px;
   max-width: 300px;
   border-radius: 9px;
   background-color: white;
@@ -62,6 +62,13 @@
   }
 }
 
+.pricing-monthly {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: $brand-blue;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 
 ////////////////////////////////////////////////////////////////////// Grid card
