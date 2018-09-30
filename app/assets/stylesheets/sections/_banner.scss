@@ -41,8 +41,9 @@
 }
 
 mark {
-  color: $brand-blue !important;
+  color: $gray-price !important;
   background: none !important;
+  font-weight: bold;
   position: relative;
   padding: 0;
   z-index: 0;
