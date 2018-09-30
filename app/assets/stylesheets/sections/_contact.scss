@@ -5,6 +5,10 @@
   background: image-url('productile-pattern.svg') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
+
+  @media screen and (max-width: 411px) {
+    padding: 65px;
+  }
 }
 
 .contact-tagline {
