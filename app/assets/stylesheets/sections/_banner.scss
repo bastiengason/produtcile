@@ -14,6 +14,19 @@
   }
 }
 
+.banner-tagline-primary {
+  color: $gray-price !important;
+  font-size: 45px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+
+  @media screen and (max-width: 991px) {
+    font-size: 30px;
+    padding-top: 15px;
+  }
+}
+
 .banner-tagline {
   color: $brand-blue !important;
   font-size: 45px;
