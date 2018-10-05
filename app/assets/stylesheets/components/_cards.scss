@@ -145,6 +145,13 @@
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
+  &:hover {
+    transition: ease .4s;
+    background: image-url('duotone-a-color.jpg') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+  }
+
   .start-now {
     color: RGBA(69, 105, 247, 1.00);
     box-shadow: 0 0 15px 4px RGBA(69, 105, 247, .3);
@@ -158,6 +165,13 @@
   background: image-url('duotone-b.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
+
+  &:hover {
+    transition: ease .4s;
+    background: image-url('duotone-b-color.jpg') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+  }
 
   .start-now {
     color: RGBA(69, 105, 247, 1.00);
@@ -173,6 +187,13 @@
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
+  &:hover {
+    transition: ease .4s;
+    background: image-url('duotone-c-color.jpg') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+  }
+
   .start-now {
     color: RGBA(69, 105, 247, 1.00);
     box-shadow: 0 0 15px 4px RGBA(69, 105, 247, .3);
@@ -187,11 +208,17 @@
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
+  &:hover {
+    transition: ease .2s;
+    background: image-url('duotone-d-color.jpg') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+  }
+
   .start-now {
     color: RGBA(69, 105, 247, 1.00);
     box-shadow: 0 0 15px 4px RGBA(69, 105, 247, .3);
   }
-
 }
 
 .item-e {
@@ -201,6 +228,13 @@
   background: image-url('duotone-e.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
+
+  &:hover {
+    transition: ease .4s;
+    background: image-url('duotone-e-color.jpg') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+  }
 
   .start-now {
     color: RGBA(69, 105, 247, 1.00);
@@ -215,6 +249,13 @@
   background: image-url('duotone-f.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
+
+  &:hover {
+    transition: ease .4s;
+    background: image-url('duotone-f-color.jpg') no-repeat center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+  }
 
   .start-now {
     color: RGBA(69, 105, 247, 1.00);
@@ -272,6 +313,11 @@
 
     &:hover {
       text-decoration: none;
+      transition: ease .2s;
+      text-decoration: none;
+      box-shadow: 0px 2px 13px 1px RGBA(72, 110, 243, .4);
+      color: $brand-blue;
+      bottom: 28px;
     }
   }
 }
