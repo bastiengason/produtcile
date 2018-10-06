@@ -67,9 +67,25 @@ mark:before {
   content: " ";
   position: absolute;
   z-index: -2;
-  bottom: 10px;
+  bottom: 8px;
   height: 20px;
   left: 6px;
   right: -6px;
 }
+
+@media screen and (max-width: 991px) {
+    .mark-banner:before {
+      bottom: 6px;
+      height: 16px;
+      left: -123px;
+      right: -6px;
+    }
+  }
+
+
+
+
+
+
+
 
