@@ -1,0 +1,15 @@
+#job {}
+
+.job-list {
+  padding-top: 100px;
+}
+
+.job-link {
+  text-decoration: none;
+  color: RGBA(49, 49, 49, 1.00);
+
+  &:hover {
+    text-decoration: none;
+    color: RGBA(49, 49, 49, 1.00);
+  }
+}
