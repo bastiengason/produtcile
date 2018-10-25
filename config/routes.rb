@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   get '/contact', to: 'pages#contact'
   get '/faq', to: 'pages#faq'
   get '/jobs', to: 'pages#jobs'
+    get 'jobs/growth-hacker', to: 'jobs#growth_hacker_1'
+    get 'jobs/digital-graphic-designer', to: 'jobs#digital_graphic_designer'
+    get 'jobs/ig-growth-manager', to: 'jobs#ig_growth_manager'
   get '/terms', to: 'pages#terms'
 
   # Plans routes
