@@ -11,5 +11,10 @@
   &:hover {
     text-decoration: none;
     color: RGBA(49, 49, 49, 1.00);
+
+    .job-card {
+      background-color: RGBA(239, 243, 249, 1.00);
+      transition: ease .2s;
+    }
   }
 }
