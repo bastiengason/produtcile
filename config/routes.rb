@@ -12,6 +12,7 @@ Rails.application.routes.draw do
     get 'jobs/digital-graphic-designer', to: 'jobs#digital_graphic_designer'
     get 'jobs/ig-growth-manager', to: 'jobs#ig_growth_manager'
   get '/terms', to: 'pages#terms'
+  get '/our-work', to: 'pages#our_work'
 
   # Plans routes
   get '/plan', to: 'plans#plan'

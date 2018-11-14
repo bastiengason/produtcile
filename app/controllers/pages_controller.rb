@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def terms
   end
+
+  def our_work
+  end
 end
