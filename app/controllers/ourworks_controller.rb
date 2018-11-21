@@ -1,4 +1,4 @@
-class Our_WorksController < ApplicationController
+class OurworksController < ApplicationController
   def quotes
   end
 

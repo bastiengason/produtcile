@@ -13,10 +13,10 @@ Rails.application.routes.draw do
     get 'jobs/ig-growth-manager', to: 'jobs#ig_growth_manager'
   get '/terms', to: 'pages#terms'
   get '/our-work', to: 'pages#our_work'
-    get '/our-work/quotes', to: 'our_work#quotes'
-    get '/our-work/currated', to: 'our_work#currated'
-    get '/our-work/filter', to: 'our_work#filter'
-    get '/our-work/stories', to: 'our_work#stories'
+    get '/our-work/quotes', to: 'ourworks#quotes'
+    get '/our-work/currated', to: 'ourworks#currated'
+    get '/our-work/filter', to: 'ourworks#filter'
+    get '/our-work/stories', to: 'ourworks#stories'
 
   # Plans routes
   get '/plan', to: 'plans#plan'
